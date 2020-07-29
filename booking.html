@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Booking page</title>
+	<link rel="stylesheet" href="css/style2.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body style="background-image: url('img/ap2.jpeg'); background-repeat: no-repeat;background-size:cover;">
+	
+	<div class="booking-form-box">
+
+		<div class="radio-btn">
+			<input type="radio" class="btn" name="check" checked="checked"><span>Roundtrip</span>
+			<input type="radio" class="btn" name="check"><span>One Way</span>
+			<input type="radio" class="btn" name="check"><span>Multi-city</span>
+		</div>
+		<div class="booking-form">
+			
+			<label>Flying from</label>
+				<input type="text" class="form-control" placeholder="City" required>
+			<label>Flying To</label>
+				<input type="text" class="form-control" placeholder="City" required>
+			<div class="input-grp">
+				<label>Departing</label>
+				<input type="date" class="form-control select-date" required>
+			</div>
+			<div class="input-grp">
+				<label>Returning</label>
+				<input type="date" class="form-control select-date" required>
+			</div>
+			<div class="input-grp">
+				<label>Adults</label>
+				<input type="number" class="form-control" value="1" >
+			</div>
+			<div class="input-grp">
+				<label>Children</label>
+				<input type="number" class="form-control" value="0" >
+			</div>
+			<div class="input-grp">
+				<label>Travel Class </label>
+				<select class="custom-select">
+					<option value="1">Economy Class</option>
+					<option value="2">Business Class</option>
+				</select>
+				
+			</div>
+			<div class="input-grp">
+				<a href="https://localhost/project/index.php" class="btn btn-primary flight ">Show flights</a>
+				<!-- <button type="button" class=" btn btn-primary flight" formaction="http://localhost/project/index.php">Show flights</button>  -->
+				
+			</div>
+		
+		</div>
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Sign Up page</title>
+		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+		<link rel="stylesheet"  href="css/style.css">
+
+	</head>
+	<body style="background-image: url('img/ap2.jpeg'); background-repeat: no-repeat;background-size:cover;" >
+		
+		<div class="hero">
+			
+			<div class="form-box" >
+        
+				<h1 class="title">SIGN UP NOW</h1> 
+						<form id="register" class="input-group" action="insert.php" method="POST" >
+				<label for="uname">Name</label>
+				<input type="text" class="input-field" name="username" placeholder="Name" required id="uname">
+				<label for="emaill">Email</label>
+				<input type="email" class="input-field" name="email" placeholder="Enter Email" required id="emaill">
+				<label for="pwd">Password</label>
+				<input type="password" class="input-field" name="password" placeholder="password" required id="pwd">
+				<p>Do you have an account?<a href="login.html">login</a></p>
+				<button type="submit" class="submit-btn"  >Register </button>
+       
+			</form>
+			</div>
+		</div>
+	</body>
+	</html>
